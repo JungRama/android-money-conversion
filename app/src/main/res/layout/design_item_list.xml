@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/bendera"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/usa"
+        android:padding="10dp"/>
+
+    <TextView
+        android:id="@+id/namaNegara"
+        android:gravity="center_vertical"
+        android:textColor="#3b3b3b"
+        android:layout_width="403dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:paddingLeft="10dp"
+        android:textSize="18dp"
+        android:text="TEXT" />
+
+    <TextView
+        android:id="@+id/mataUang"
+        android:gravity="center_vertical"
+        android:textColor="#3b3b3b"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="10dp"
+        android:textSize="18dp"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:text="(USD)" />
+</LinearLayout>
